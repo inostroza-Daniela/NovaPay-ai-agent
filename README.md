@@ -66,11 +66,11 @@ NovaPay es una empresa ficticia de tecnología financiera que ofrece billetera d
         │
         ▼
 🤖 Agente ReAct (LangGraph + Gemini 2.5 Flash)
-   ├── 🔍 buscar_documentos
+   ├── buscar_documentos
    │   Búsqueda semántica en FAISS
    │   (políticas, FAQ, seguridad, productos)
    │
-   └── 📊 consultar_datos_csv
+   └── consultar_datos_csv
        Consulta directa al CSV de tarifas
        (precios, comisiones, costos)
         │
@@ -176,7 +176,7 @@ La aplicación estará disponible en `http://localhost:7860`
 ### Alternativa: Google Colab
 
 1. El proyecto puede ejecutarse en Google Colab subiendo los archivos `app.py` y la carpeta `documents/`, instalando    las dependencias.
-2. Configurar la API Key en Secrets (🔑 icono en el panel izquierdo)
+2. Configurar la API Key en Secrets (icono en el panel izquierdo)
 3. Ejecutar todas las celdas
 
 ---
