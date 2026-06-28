@@ -116,30 +116,32 @@ NovaPay es una empresa ficticia de tecnología financiera que ofrece billetera d
 
 ## 💬 Ejemplos de Preguntas y Respuestas
 
+## 💬 Ejemplos de Preguntas y Respuestas
+
 ### Pregunta 1: Datos biométricos
-> **Pregunta:** ¿Cuál es la política de NovaPay respecto a los datos biométricos?
+> **Pregunta:** ¿Cuál es la política de privacidad de NovaPay respecto a datos biométricos?
 >
-> **Respuesta:** Según la Política de Privacidad de NovaPay, los datos biométricos (huella dactilar o reconocimiento facial) se recopilan únicamente para verificación de identidad y autenticación en la aplicación móvil. Estos datos se almacenan cifrados con AES-256 y nunca se comparten con terceros. En caso de cierre de cuenta, los datos biométricos se eliminan inmediatamente.
-
-### Pregunta 2: Transferencias internacionales
-> **Pregunta:** ¿Cuánto cuesta enviar dinero a Europa?
+> **Respuesta:** NovaPay recopila datos biométricos, como huella dactilar o reconocimiento facial, únicamente para la verificación de identidad y autenticación en la aplicación móvil. Estos datos se almacenan cifrados y no se comparten con terceros. Además, los datos biométricos son eliminados inmediatamente tras el cierre de la cuenta del usuario.
 >
-> **Respuesta:** Una transferencia internacional a Estados Unidos y Europa tiene una comisión del 2.0% sobre el monto + $4.990 CLP de cargo fijo (+ IVA). El plazo estimado es de 2-3 días hábiles. El tipo de cambio aplicado es el publicado por NovaPay al momento de la confirmación, que incluye un margen operacional.
+> Fuente: Política de Privacidad y Protección de Datos — NovaPay SpA (Versión 3.2).
 
-### Pregunta 3: Productos de inversión
-> **Pregunta:** ¿Qué productos de inversión ofrece NovaPay y cuál tiene mejor rentabilidad?
->
-> **Respuesta:** NovaPay Invest ofrece 5 productos: Fondo Conservador (renta fija, 5.2% anual, riesgo bajo), Fondo Balanceado (mixto, 8.7% anual, riesgo moderado), Fondo Crecimiento (renta variable, 14.3% anual, riesgo alto), Depósito a Plazo (4.8% anual, riesgo muy bajo) y Cuenta de Ahorro (3.1% anual, riesgo muy bajo). El de mayor rentabilidad es el Fondo NovaPay Crecimiento con un 14.3% en los últimos 12 meses, aunque con riesgo alto.
+![Ejemplo biométricos](Captura%20de%20pantalla%202026-06-28%20a%20la(s)%2012.22.31.png)
 
-### Pregunta 4: Sistema de fraudes
+### Pregunta 2: Sistema de detección de fraudes
 > **Pregunta:** ¿Cómo funciona el sistema de detección de fraudes?
 >
-> **Respuesta:** NovaPay opera un motor de detección en tiempo real que evalúa más de 200 variables por transacción, incluyendo monto, frecuencia, ubicación geográfica, device fingerprinting y patrones de comportamiento. Las transacciones se clasifican en tres niveles: Bajo (score 0-30, aprobación automática), Medio (31-70, verificación con OTP o biometría) y Alto (71-100, bloqueo automático y revisión manual). Los tipos de fraude monitoreados incluyen phishing, account takeover, identidad sintética, CNP, money muling e ingeniería social.
-
-### Pregunta 5: Límites de cuenta
-> **Pregunta:** ¿Cuáles son los límites de transferencia para una cuenta verificada?
+> **Respuesta:** El sistema de detección de fraudes de NovaPay funciona con un motor en tiempo real que evalúa más de 200 variables por transacción, incluyendo monto y frecuencia, ubicación geográfica, patrones de comportamiento (behavioral analytics), device fingerprinting y velocidad de operaciones sucesivas.
 >
-> **Respuesta:** Una cuenta verificada tiene los siguientes límites: saldo máximo en billetera de $5.000.000 CLP, transferencias diarias de hasta $3.000.000 CLP y transferencias mensuales de hasta $20.000.000 CLP. Además, las transferencias a bancos nacionales en horario bancario son gratuitas para cuentas verificadas.
+> El sistema clasifica el riesgo: Bajo (score 0-30) con aprobación automática, Medio (31-70) con verificación adicional (OTP o biometría), y Alto (71-100) con bloqueo automático y revisión manual.
+
+![Ejemplo fraudes](Captura%20de%20pantalla%202026-06-28%20a%20la(s)%2012.22.48.png)
+
+### Pregunta 3: Productos de inversión
+> **Pregunta:** ¿Qué productos de inversión ofrece NovaPay y cuál es la rentabilidad?
+>
+> **Respuesta:** NovaPay Invest ofrece: Fondo NovaPay Conservador (Renta Fija, 5.2%), Fondo NovaPay Balanceado (Mixto, 8.7%), Fondo NovaPay Crecimiento (Renta Variable, 14.3%), Depósito a Plazo NovaPay (tasa anual 4.8%) y Cuenta Ahorro NovaPay (tasa anual 3.1%). Próximamente se añadirán ETFs internacionales en Q3 2026.
+
+![Ejemplo inversiones](Captura%20de%20pantalla%202026-06-28%20a%20la(s)%2012.23.18.png)
 
 ---
 
