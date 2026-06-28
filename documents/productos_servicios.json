@@ -1,0 +1,203 @@
+{
+  "empresa": "NovaPay SpA",
+  "rut": "77.123.456-7",
+  "sitio_web": "www.novapay.cl",
+  "fundacion": "2022",
+  "sede": "Av. Providencia 1234, Oficina 801, Providencia, Santiago, Chile",
+  "colaboradores": 127,
+  "productos": [
+    {
+      "nombre": "NovaPay Wallet",
+      "tipo": "Billetera Digital",
+      "descripcion": "Billetera virtual para almacenar saldo en CLP, realizar pagos en comercios asociados, transferencias entre usuarios y pago de servicios básicos.",
+      "estado": "Activo",
+      "lanzamiento": "2022-06-15",
+      "usuarios_activos": 285000,
+      "caracteristicas": [
+        "Recarga desde cuenta bancaria o tarjeta",
+        "Pagos con código QR en comercios",
+        "Transferencias instantáneas entre usuarios",
+        "Pago de cuentas de servicios básicos (luz, agua, gas, internet)",
+        "Historial de movimientos con filtros avanzados",
+        "Notificaciones push en tiempo real"
+      ],
+      "plataformas": ["iOS 15+", "Android 10+", "Web (www.app.novapay.cl)"]
+    },
+    {
+      "nombre": "NovaPay Transfer",
+      "tipo": "Transferencias Electrónicas",
+      "descripcion": "Servicio de transferencias nacionales e internacionales con tipos de cambio competitivos y seguimiento en tiempo real.",
+      "estado": "Activo",
+      "lanzamiento": "2022-09-01",
+      "transacciones_mensuales": 1200000,
+      "paises_destino": 43,
+      "caracteristicas": [
+        "Transferencias nacionales en minutos",
+        "Transferencias internacionales a 43 países",
+        "Tipo de cambio transparente sin cargos ocultos",
+        "Seguimiento en tiempo real del estado de la transferencia",
+        "Transferencias programadas y recurrentes",
+        "Notificación al destinatario por email o SMS"
+      ]
+    },
+    {
+      "nombre": "NovaPay Card",
+      "tipo": "Tarjeta de Débito",
+      "descripcion": "Tarjeta Visa de débito vinculada a la billetera NovaPay, disponible en formato virtual y físico.",
+      "estado": "Activo",
+      "lanzamiento": "2023-03-20",
+      "tarjetas_emitidas": 195000,
+      "red": "Visa",
+      "caracteristicas": [
+        "Tarjeta virtual con activación inmediata",
+        "Tarjeta física con chip EMV y contactless",
+        "Compras en comercios nacionales e internacionales",
+        "Retiros en cajeros Red ATM y Visa Plus",
+        "Control de gastos con límites configurables",
+        "Congelamiento instantáneo desde la app",
+        "Sin costo de mantención"
+      ]
+    },
+    {
+      "nombre": "NovaPay Invest",
+      "tipo": "Inversiones",
+      "descripcion": "Plataforma de inversión accesible que permite a los usuarios invertir en fondos mutuos, depósitos a plazo y cuentas de ahorro desde montos bajos.",
+      "estado": "Activo",
+      "lanzamiento": "2024-01-15",
+      "usuarios_inversionistas": 42000,
+      "aum_millones_clp": 15800,
+      "productos_inversion": [
+        {
+          "nombre": "Fondo NovaPay Conservador",
+          "tipo": "Fondo Mutuo Renta Fija",
+          "rentabilidad_12m": "5.2%",
+          "inversion_minima_clp": 10000,
+          "plazo_rescate_dias": 1,
+          "riesgo": "Bajo"
+        },
+        {
+          "nombre": "Fondo NovaPay Balanceado",
+          "tipo": "Fondo Mutuo Mixto",
+          "rentabilidad_12m": "8.7%",
+          "inversion_minima_clp": 10000,
+          "plazo_rescate_dias": 2,
+          "riesgo": "Moderado"
+        },
+        {
+          "nombre": "Fondo NovaPay Crecimiento",
+          "tipo": "Fondo Mutuo Renta Variable",
+          "rentabilidad_12m": "14.3%",
+          "inversion_minima_clp": 50000,
+          "plazo_rescate_dias": 3,
+          "riesgo": "Alto"
+        },
+        {
+          "nombre": "Depósito a Plazo NovaPay",
+          "tipo": "Depósito a Plazo",
+          "tasa_anual": "4.8%",
+          "inversion_minima_clp": 50000,
+          "plazos_dias": [30, 60, 90, 180, 360],
+          "riesgo": "Muy Bajo"
+        },
+        {
+          "nombre": "Cuenta Ahorro NovaPay",
+          "tipo": "Cuenta de Ahorro",
+          "tasa_anual": "3.1%",
+          "inversion_minima_clp": 1000,
+          "rescate": "Inmediato",
+          "riesgo": "Muy Bajo"
+        }
+      ],
+      "proximos_lanzamientos": [
+        {
+          "nombre": "ETFs Internacionales",
+          "fecha_estimada": "Q3 2026",
+          "descripcion": "Acceso a ETFs de S&P 500, NASDAQ y mercados emergentes"
+        }
+      ]
+    },
+    {
+      "nombre": "NovaPay Business",
+      "tipo": "Soluciones para Empresas",
+      "descripcion": "Suite de herramientas de cobro y gestión financiera para emprendedores, pymes y empresas, con integración a facturación electrónica del SII.",
+      "estado": "Activo",
+      "lanzamiento": "2023-08-01",
+      "comercios_activos": 8500,
+      "volumen_procesado_mensual_millones_clp": 4200,
+      "planes": [
+        {
+          "nombre": "Plan Emprendedor",
+          "precio_mensual_clp": 0,
+          "comision_credito": "1.99%",
+          "comision_debito": "1.49%",
+          "limite_transacciones_mes": 500,
+          "caracteristicas": [
+            "Links de pago",
+            "Código QR",
+            "Dashboard básico",
+            "Soporte por email"
+          ]
+        },
+        {
+          "nombre": "Plan Pyme",
+          "precio_mensual_clp": 29990,
+          "comision_credito": "1.69%",
+          "comision_debito": "1.19%",
+          "limite_transacciones_mes": 5000,
+          "caracteristicas": [
+            "Todo lo del Plan Emprendedor",
+            "API REST completa",
+            "Integración SII",
+            "Conciliación automática",
+            "Reportes avanzados",
+            "Soporte prioritario"
+          ]
+        },
+        {
+          "nombre": "Plan Corporativo",
+          "precio_mensual_clp": 99990,
+          "comision_credito": "1.49%",
+          "comision_debito": "0.99%",
+          "limite_transacciones_mes": -1,
+          "caracteristicas": [
+            "Todo lo del Plan Pyme",
+            "Ejecutivo de cuenta dedicado",
+            "SLA 99.9%",
+            "Webhooks personalizados",
+            "Multi-usuario con roles",
+            "Reportes personalizados",
+            "Soporte 24/7"
+          ]
+        }
+      ]
+    }
+  ],
+  "equipo_directivo": [
+    {"cargo": "CEO", "nombre": "Matías Herrera Soto"},
+    {"cargo": "CTO", "nombre": "Valentina Rojas Kim"},
+    {"cargo": "CFO", "nombre": "Andrés Muñoz Castillo"},
+    {"cargo": "CISO", "nombre": "Felipe Araya Contreras"},
+    {"cargo": "COO", "nombre": "Isidora Pizarro Fuentes"},
+    {"cargo": "CPO (Chief Product Officer)", "nombre": "Diego Navarro Bravo"}
+  ],
+  "hitos": [
+    {"fecha": "2022-06", "evento": "Lanzamiento de NovaPay Wallet"},
+    {"fecha": "2022-09", "evento": "Lanzamiento de NovaPay Transfer"},
+    {"fecha": "2023-03", "evento": "Lanzamiento de NovaPay Card"},
+    {"fecha": "2023-06", "evento": "100.000 usuarios registrados"},
+    {"fecha": "2023-08", "evento": "Lanzamiento de NovaPay Business"},
+    {"fecha": "2024-01", "evento": "Lanzamiento de NovaPay Invest"},
+    {"fecha": "2024-03", "evento": "Certificación ISO 27001"},
+    {"fecha": "2024-09", "evento": "250.000 usuarios registrados"},
+    {"fecha": "2025-02", "evento": "Serie A: USD 12M liderada por Kaszek Ventures"},
+    {"fecha": "2025-11", "evento": "Próximo lanzamiento: ETFs Internacionales Q3 2026"}
+  ],
+  "metricas_2025": {
+    "usuarios_totales": 320000,
+    "transacciones_procesadas_anual": 18500000,
+    "volumen_total_procesado_millones_clp": 52000,
+    "nps_score": 72,
+    "disponibilidad_plataforma": "99.7%",
+    "tiempo_medio_onboarding_minutos": 8
+  }
+}

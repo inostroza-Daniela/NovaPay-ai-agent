@@ -1,0 +1,34 @@
+categoria,servicio,tipo_cuenta,comision_porcentaje,comision_fija_clp,moneda,aplica_iva,observaciones
+Transferencias,Transferencia entre cuentas NovaPay,Todas,0.0,0,CLP,No,Gratis e instantánea 24/7
+Transferencias,Transferencia a banco nacional (horario bancario),Básica,0.0,500,CLP,Sí,Lunes a viernes 09:00-17:00
+Transferencias,Transferencia a banco nacional (horario bancario),Verificada,0.0,0,CLP,No,Gratis para cuentas verificadas
+Transferencias,Transferencia a banco nacional (fuera de horario),Básica,0.0,990,CLP,Sí,Procesada al siguiente día hábil
+Transferencias,Transferencia a banco nacional (fuera de horario),Verificada,0.0,500,CLP,Sí,Procesada al siguiente día hábil
+Transferencias,Transferencia internacional - Latinoamérica,Todas,1.5,2990,CLP,Sí,1-2 días hábiles. Tipo de cambio incluye margen operacional
+Transferencias,Transferencia internacional - USA/Europa,Todas,2.0,4990,CLP,Sí,2-3 días hábiles. Tipo de cambio incluye margen operacional
+Transferencias,Transferencia internacional - Otros destinos,Todas,2.5,6990,CLP,Sí,3-5 días hábiles. Tipo de cambio incluye margen operacional
+NovaPay Card,Emisión tarjeta virtual,Todas,0.0,0,CLP,No,Activación inmediata
+NovaPay Card,Emisión tarjeta física (primera),Verificada,0.0,0,CLP,No,Envío en 7-10 días hábiles
+NovaPay Card,Reposición tarjeta física,Todas,0.0,5000,CLP,Sí,Por pérdida o robo
+NovaPay Card,Mantención mensual,Todas,0.0,0,CLP,No,Sin costo de mantención
+NovaPay Card,Compra en comercio nacional,Todas,0.0,0,CLP,No,Sin comisión adicional
+NovaPay Card,Compra en comercio internacional,Todas,2.5,0,USD,Sí,Sobre el monto en USD. Tipo de cambio de Visa
+NovaPay Card,Retiro en cajero nacional (Red ATM),Todas,0.0,1500,CLP,Sí,Primeros 3 retiros gratis al mes para cuenta verificada
+NovaPay Card,Retiro en cajero internacional,Todas,3.0,3500,CLP,Sí,Más comisión del operador del cajero
+NovaPay Business,Cobro con tarjeta de crédito,Business,1.99,0,CLP,Sí,Comisión estándar por transacción
+NovaPay Business,Cobro con tarjeta de débito,Business,1.49,0,CLP,Sí,Comisión estándar por transacción
+NovaPay Business,Cobro por transferencia bancaria,Business,0.5,0,CLP,Sí,Comisión por cobro procesado
+NovaPay Business,Link de pago,Business,0.0,0,CLP,No,Generación gratuita. Aplica comisión del medio de pago
+NovaPay Business,Código QR,Business,0.0,0,CLP,No,Generación gratuita. Aplica comisión del medio de pago
+NovaPay Business,Integración API,Business,0.0,0,CLP,No,Documentación y soporte incluidos
+NovaPay Business,Conciliación bancaria,Business,0.0,0,CLP,No,Incluida en todos los planes
+NovaPay Business,Plan Premium (>500 txn/mes),Business,1.49,0,CLP,Sí,Tarifa reducida para alto volumen con tarjeta de crédito
+NovaPay Business,Plan Premium (>500 txn/mes) débito,Business,0.99,0,CLP,Sí,Tarifa reducida para alto volumen con tarjeta de débito
+NovaPay Invest,Compra fondos mutuos,Verificada,0.0,0,CLP,No,Comisión incluida en el valor cuota del fondo
+NovaPay Invest,Rescate fondos mutuos,Verificada,0.0,0,CLP,No,Sin comisión de rescate
+NovaPay Invest,Depósito a plazo,Verificada,0.0,0,CLP,No,Sin comisión. Tasa pactada al momento de la apertura
+NovaPay Invest,Cuenta de ahorro,Verificada,0.0,0,CLP,No,Sin comisiones. Rentabilidad diaria
+Otros,Emisión certificado de saldo,Todas,0.0,1500,CLP,Sí,Documento digital con firma electrónica
+Otros,Cartola histórica (más de 6 meses),Todas,0.0,2000,CLP,Sí,Por cada período de 6 meses solicitado
+Otros,Cierre de cuenta,Todas,0.0,0,CLP,No,Sin costo
+Otros,Cambio de plan (Básica a Verificada),Básica,0.0,0,CLP,No,Requiere completar proceso de verificación KYC
