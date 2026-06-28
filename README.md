@@ -185,7 +185,11 @@ La aplicación estará disponible en `http://localhost:7860`
 
 ### Evidencia del deploy
 
-> 📸 *Captura disponible tras completar el despliegue en OCI.*
+> Aplicación desplegada en Oracle Cloud Infrastructure (OCI Compute - VM.Standard.E2.1.Micro, región Chile Central - Santiago):
+
+`http://146.181.63.237:7860`
+
+![Deploy en OCI](deploy-oci.png)
 
 
 ### Pasos del deploy
