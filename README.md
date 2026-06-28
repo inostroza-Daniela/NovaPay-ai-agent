@@ -171,7 +171,9 @@ La aplicación estará disponible en `http://localhost:7860`
 
 ### Alternativa: Google Colab
 
-1. Abrir `notebooks/AluraAgente_NovaPay.ipynb` en [Google Colab](https://colab.research.google.com/)
+### Alternativa: Google Colab
+
+1. El proyecto puede ejecutarse en Google Colab subiendo los archivos `app.py` y la carpeta `documents/`, instalando    las dependencias.
 2. Configurar la API Key en Secrets (🔑 icono en el panel izquierdo)
 3. Ejecutar todas las celdas
 
@@ -181,10 +183,8 @@ La aplicación estará disponible en `http://localhost:7860`
 
 ### Evidencia del deploy
 
-<!-- REEMPLAZAR con tu captura de pantalla real -->
-> 📸 *Insertar aquí captura de pantalla o enlace al agente corriendo en OCI*
->
-> `http://IP_PUBLICA_OCI:7860`
+> 📸 *Captura disponible tras completar el despliegue en OCI.*
+
 
 ### Pasos del deploy
 
@@ -233,9 +233,9 @@ NovaPay-ai-agent/
 
 ## 👩‍💻 Autor
 
-**Daniela Paz Inostroza Mancilla**  
+**Daniela Inostroza Mancilla**  
 Ingeniería en Ciberseguridad | Data Analyst  
-📍 Santiago, Chile
+📍 Temuco, Chile
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniela_Inostroza-blue?logo=linkedin)](https://www.linkedin.com/in/daniela-i-592462389)
 [![GitHub](https://img.shields.io/badge/GitHub-inostroza--Daniela-black?logo=github)](https://github.com/inostroza-Daniela)
@@ -244,6 +244,4 @@ Ingeniería en Ciberseguridad | Data Analyst
 
 ## 📜 Licencia
 
-Proyecto desarrollado como parte del programa [ONE - Oracle Next Education](https://www.oracle.com/br/education/oracle-next-education/).
-
-MIT License © 2026
+MIT License © 2026 Daniela Inostroza Mancilla
