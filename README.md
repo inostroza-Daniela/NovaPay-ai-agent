@@ -145,12 +145,12 @@ NovaPay es una empresa ficticia de tecnología financiera que ofrece billetera d
 
 ---
 
-## 🚀 Instalación y Ejecución Local
+## Instalación y Ejecución Local
 
 ### Prerrequisitos
 
 - Python 3.11+
-- Google API Key ([obtener aquí](https://aistudio.google.com)
+- Google API Key
 
 ### Pasos
 
